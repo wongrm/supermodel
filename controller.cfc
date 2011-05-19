@@ -1,7 +1,6 @@
 <cfcomponent>
   <cfset init() />
 
-  <!--- Change from Matty --->
   <cffunction name="init" access="private" returntype="void">
     <cfset variables.model_path = request.path & 'model/' />
     <cfset variables.views_path = request.path & 'views/' />
